@@ -1,0 +1,86 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Build / Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# TensorFlow / ML Files
+# =========================
+
+# Model checkpoints
+*.ckpt
+*.ckpt.*
+*.index
+*.data-*
+*.meta
+
+# Saved models
+*.pb
+*.pbtxt
+*.tflite
+*.h5
+
+# TensorBoard logs
+events.out.tfevents.*
+
+# Training outputs
+Tensorflow/workspace/
+
+# Object detection API test data
+Tensorflow/models/research/object_detection/test_data/
+
+# =========================
+# Dataset files (optional)
+# =========================
+*.csv
+*.tfrecord
+*.record
+*.xml
+*.json
+*.jpg
+*.png
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.tmp
